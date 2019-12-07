@@ -1,0 +1,28 @@
+{
+	"name": "pixi-typescript-starter-pack",
+	"version": "0.0.0",
+	"description": "A starter pack for create a 2D game with Pixi.js and Typescript",
+	"main": "./src/",
+	"scripts": {
+		"start": "webpack-dev-server",
+		"build": "webpack"
+	},
+	"author": "Billy Ros <billyros@gmail.com>",
+	"license": "ISC",
+	"dependencies": {
+		"pixi.js": "^5.2.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.7.5",
+		"@babel/preset-env": "^7.7.5",
+		"@babel/preset-typescript": "^7.7.4",
+		"@types/pixi.js": "^5.0.0",
+		"babel-loader": "^8.0.6",
+		"html-webpack-plugin": "^3.2.0",
+		"ts-loader": "^6.2.1",
+		"typescript": "^3.7.3",
+		"webpack": "^4.41.2",
+		"webpack-cli": "^3.3.10",
+		"webpack-dev-server": "^3.9.0"
+	}
+}
